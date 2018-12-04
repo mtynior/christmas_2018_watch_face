@@ -12,7 +12,64 @@
 		90BD39CC21B6F6F500BA7421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39CA21B6F6F500BA7421 /* Main.storyboard */; };
 		90BD39CE21B6F6F700BA7421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39CD21B6F6F700BA7421 /* Assets.xcassets */; };
 		90BD39D121B6F6F700BA7421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39CF21B6F6F700BA7421 /* LaunchScreen.storyboard */; };
+		90BD39DE21B6F75600BA7421 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39DC21B6F75600BA7421 /* Interface.storyboard */; };
+		90BD39E021B6F75700BA7421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39DF21B6F75700BA7421 /* Assets.xcassets */; };
+		90BD39E721B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90BD39E621B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90BD39EC21B6F75700BA7421 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD39EB21B6F75700BA7421 /* InterfaceController.swift */; };
+		90BD39EE21B6F75700BA7421 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD39ED21B6F75700BA7421 /* ExtensionDelegate.swift */; };
+		90BD39F021B6F75700BA7421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD39EF21B6F75700BA7421 /* Assets.xcassets */; };
+		90BD39F421B6F75700BA7421 /* Christmas_2018_Watch_Face.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90BD39DA21B6F75600BA7421 /* Christmas_2018_Watch_Face.app */; };
+		90BD39FF21B6F83A00BA7421 /* ChristmasPaperTown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BD39FE21B6F83A00BA7421 /* ChristmasPaperTown.swift */; };
+		90BD3A0121B6F88300BA7421 /* ChristmasPaperTown.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */; };
+		90BD3A0721B7028200BA7421 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */; };
+		90BD3A0821B7028200BA7421 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */; };
+		90BD3A0A21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */; };
+		90BD3A0B21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */; };
+		90BD3A0E21B704CA00BA7421 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0C21B704CA00BA7421 /* SnowParticle.sks */; };
+		90BD3A0F21B704CA00BA7421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0D21B704CA00BA7421 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90BD39E821B6F75700BA7421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90BD39BB21B6F6F500BA7421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD39E521B6F75700BA7421;
+			remoteInfo = "Christmas_2018_Watch_Face Extension";
+		};
+		90BD39F221B6F75700BA7421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90BD39BB21B6F6F500BA7421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90BD39D921B6F75600BA7421;
+			remoteInfo = Christmas_2018_Watch_Face;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90BD39F821B6F75700BA7421 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90BD39E721B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD39FC21B6F75700BA7421 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				90BD39F421B6F75700BA7421 /* Christmas_2018_Watch_Face.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		90BD39C321B6F6F500BA7421 /* Watch_Face_Christmas_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch_Face_Christmas_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +79,32 @@
 		90BD39CD21B6F6F700BA7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BD39D021B6F6F700BA7421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BD39D221B6F6F700BA7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BD39DA21B6F75600BA7421 /* Christmas_2018_Watch_Face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Christmas_2018_Watch_Face.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD39DD21B6F75600BA7421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		90BD39DF21B6F75700BA7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD39E121B6F75700BA7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BD39E621B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Christmas_2018_Watch_Face Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BD39EB21B6F75700BA7421 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		90BD39ED21B6F75700BA7421 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		90BD39EF21B6F75700BA7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD39F121B6F75700BA7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BD39FE21B6F83A00BA7421 /* ChristmasPaperTown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasPaperTown.swift; sourceTree = "<group>"; };
+		90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ChristmasPaperTown.sks; sourceTree = "<group>"; };
+		90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChristmasPaperTown.atlasc; sourceTree = "<group>"; };
+		90BD3A0C21B704CA00BA7421 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		90BD3A0D21B704CA00BA7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90BD39C021B6F6F500BA7421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD39E321B6F75700BA7421 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				90BD39C521B6F6F500BA7421 /* Watch_Face_Christmas_2018 */,
+				90BD39DB21B6F75600BA7421 /* Christmas_2018_Watch_Face */,
+				90BD39EA21B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */,
 				90BD39C421B6F6F500BA7421 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				90BD39C321B6F6F500BA7421 /* Watch_Face_Christmas_2018.app */,
+				90BD39DA21B6F75600BA7421 /* Christmas_2018_Watch_Face.app */,
+				90BD39E621B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +147,41 @@
 			path = Watch_Face_Christmas_2018;
 			sourceTree = "<group>";
 		};
+		90BD39DB21B6F75600BA7421 /* Christmas_2018_Watch_Face */ = {
+			isa = PBXGroup;
+			children = (
+				90BD39DC21B6F75600BA7421 /* Interface.storyboard */,
+				90BD39DF21B6F75700BA7421 /* Assets.xcassets */,
+				90BD39E121B6F75700BA7421 /* Info.plist */,
+			);
+			path = Christmas_2018_Watch_Face;
+			sourceTree = "<group>";
+		};
+		90BD39EA21B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90BD39FD21B6F82700BA7421 /* PaperTown */,
+				90BD39EB21B6F75700BA7421 /* InterfaceController.swift */,
+				90BD39ED21B6F75700BA7421 /* ExtensionDelegate.swift */,
+				90BD39EF21B6F75700BA7421 /* Assets.xcassets */,
+				90BD39F121B6F75700BA7421 /* Info.plist */,
+			);
+			path = "Christmas_2018_Watch_Face Extension";
+			sourceTree = "<group>";
+		};
+		90BD39FD21B6F82700BA7421 /* PaperTown */ = {
+			isa = PBXGroup;
+			children = (
+				90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */,
+				90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */,
+				90BD39FE21B6F83A00BA7421 /* ChristmasPaperTown.swift */,
+				90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */,
+				90BD3A0C21B704CA00BA7421 /* SnowParticle.sks */,
+				90BD3A0D21B704CA00BA7421 /* Assets.xcassets */,
+			);
+			path = PaperTown;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +192,51 @@
 				90BD39BF21B6F6F500BA7421 /* Sources */,
 				90BD39C021B6F6F500BA7421 /* Frameworks */,
 				90BD39C121B6F6F500BA7421 /* Resources */,
+				90BD39FC21B6F75700BA7421 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90BD39F321B6F75700BA7421 /* PBXTargetDependency */,
 			);
 			name = Watch_Face_Christmas_2018;
 			productName = Watch_Face_Christmas_2018;
 			productReference = 90BD39C321B6F6F500BA7421 /* Watch_Face_Christmas_2018.app */;
 			productType = "com.apple.product-type.application";
+		};
+		90BD39D921B6F75600BA7421 /* Christmas_2018_Watch_Face */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD39F921B6F75700BA7421 /* Build configuration list for PBXNativeTarget "Christmas_2018_Watch_Face" */;
+			buildPhases = (
+				90BD39D821B6F75600BA7421 /* Resources */,
+				90BD39F821B6F75700BA7421 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BD39E921B6F75700BA7421 /* PBXTargetDependency */,
+			);
+			name = Christmas_2018_Watch_Face;
+			productName = Christmas_2018_Watch_Face;
+			productReference = 90BD39DA21B6F75600BA7421 /* Christmas_2018_Watch_Face.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		90BD39E521B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90BD39F521B6F75700BA7421 /* Build configuration list for PBXNativeTarget "Christmas_2018_Watch_Face Extension" */;
+			buildPhases = (
+				90BD39E221B6F75700BA7421 /* Sources */,
+				90BD39E321B6F75700BA7421 /* Frameworks */,
+				90BD39E421B6F75700BA7421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christmas_2018_Watch_Face Extension";
+			productName = "Christmas_2018_Watch_Face Extension";
+			productReference = 90BD39E621B6F75700BA7421 /* Christmas_2018_Watch_Face Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +249,12 @@
 				ORGANIZATIONNAME = "Michal Tynior";
 				TargetAttributes = {
 					90BD39C221B6F6F500BA7421 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					90BD39D921B6F75600BA7421 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					90BD39E521B6F75700BA7421 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +273,8 @@
 			projectRoot = "";
 			targets = (
 				90BD39C221B6F6F500BA7421 /* Watch_Face_Christmas_2018 */,
+				90BD39D921B6F75600BA7421 /* Christmas_2018_Watch_Face */,
+				90BD39E521B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +290,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90BD39D821B6F75600BA7421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD3A0721B7028200BA7421 /* DancingScript-Bold.ttf in Resources */,
+				90BD3A0A21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */,
+				90BD39E021B6F75700BA7421 /* Assets.xcassets in Resources */,
+				90BD39DE21B6F75600BA7421 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BD39E421B6F75700BA7421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD39F021B6F75700BA7421 /* Assets.xcassets in Resources */,
+				90BD3A0E21B704CA00BA7421 /* SnowParticle.sks in Resources */,
+				90BD3A0B21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */,
+				90BD3A0821B7028200BA7421 /* DancingScript-Bold.ttf in Resources */,
+				90BD3A0F21B704CA00BA7421 /* Assets.xcassets in Resources */,
+				90BD3A0121B6F88300BA7421 /* ChristmasPaperTown.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +326,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90BD39E221B6F75700BA7421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BD39EE21B6F75700BA7421 /* ExtensionDelegate.swift in Sources */,
+				90BD39FF21B6F83A00BA7421 /* ChristmasPaperTown.swift in Sources */,
+				90BD39EC21B6F75700BA7421 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90BD39E921B6F75700BA7421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD39E521B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */;
+			targetProxy = 90BD39E821B6F75700BA7421 /* PBXContainerItemProxy */;
+		};
+		90BD39F321B6F75700BA7421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90BD39D921B6F75600BA7421 /* Christmas_2018_Watch_Face */;
+			targetProxy = 90BD39F221B6F75700BA7421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		90BD39CA21B6F6F500BA7421 /* Main.storyboard */ = {
@@ -157,6 +366,14 @@
 				90BD39D021B6F6F700BA7421 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90BD39DC21B6F75600BA7421 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90BD39DD21B6F75600BA7421 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -314,6 +531,88 @@
 			};
 			name = Release;
 		};
+		90BD39F621B6F75700BA7421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = "Christmas_2018_Watch_Face Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		90BD39F721B6F75700BA7421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				INFOPLIST_FILE = "Christmas_2018_Watch_Face Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		90BD39FA21B6F75700BA7421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				IBSC_MODULE = Christmas_2018_Watch_Face_Extension;
+				INFOPLIST_FILE = Christmas_2018_Watch_Face/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		90BD39FB21B6F75700BA7421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LUKKGTQB5;
+				IBSC_MODULE = Christmas_2018_Watch_Face_Extension;
+				INFOPLIST_FILE = Christmas_2018_Watch_Face/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +630,24 @@
 			buildConfigurations = (
 				90BD39D621B6F6F700BA7421 /* Debug */,
 				90BD39D721B6F6F700BA7421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD39F521B6F75700BA7421 /* Build configuration list for PBXNativeTarget "Christmas_2018_Watch_Face Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD39F621B6F75700BA7421 /* Debug */,
+				90BD39F721B6F75700BA7421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90BD39F921B6F75700BA7421 /* Build configuration list for PBXNativeTarget "Christmas_2018_Watch_Face" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BD39FA21B6F75700BA7421 /* Debug */,
+				90BD39FB21B6F75700BA7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
