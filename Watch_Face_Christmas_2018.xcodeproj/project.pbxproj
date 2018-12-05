@@ -93,6 +93,7 @@
 		90BD3A0C21B704CA00BA7421 /* SnowEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowEmitter.sks; sourceTree = "<group>"; };
 		90BD3A2221B848F900BA7421 /* ChristmasPaperTown.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChristmasPaperTown.atlasc; sourceTree = "<group>"; };
 		90BD3A2421B84B5500BA7421 /* PresentEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PresentEmitter.sks; sourceTree = "<group>"; };
+		90BD3A2621B85AB100BA7421 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		90BD39BA21B6F6F500BA7421 = {
 			isa = PBXGroup;
 			children = (
+				90BD3A2621B85AB100BA7421 /* README.md */,
 				90BD39C521B6F6F500BA7421 /* Watch_Face_Christmas_2018 */,
 				90BD39DB21B6F75600BA7421 /* Christmas_2018_Watch_Face */,
 				90BD39EA21B6F75700BA7421 /* Christmas_2018_Watch_Face Extension */,
