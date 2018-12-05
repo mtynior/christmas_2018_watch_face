@@ -7,7 +7,7 @@
             <key>generator</key>
             <string>TexturePacker 4.10.0 - https://www.codeandweb.com/texturepacker</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:b53c559d3b0112622b8f61fed241086b:219664ec82fb6bc87c6f34a7d5fed520:63a75690be8a36f57d919d920d6ed2f7$</string>
+            <string>$TexturePacker:SmartUpdate:539b3c03442a121c30b58fd06a125935:594119190b108a54520b26c47cc6105f:63a75690be8a36f57d919d920d6ed2f7$</string>
         </dict>
         <key>format</key>
         <string>APPL</string>
@@ -17,64 +17,7 @@
                 <key>path</key>
                 <string>ChristmasPaperTown.1@2x.png</string>
                 <key>size</key>
-                <string>{853,443}</string>
-                <key>subimages</key>
-                <array>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>town@2x@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{649,446}</string>
-                        <key>textureRect</key>
-                        <string>{{1,1},{643,441}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>santa@2x@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{5,6}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{437,225}</string>
-                        <key>textureRect</key>
-                        <string>{{646,1},{206,424}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>snowflake@2x@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{11,11}</string>
-                        <key>textureRect</key>
-                        <string>{{646,427},{11,11}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                </array>
-            </dict>
-            <dict>
-                <key>path</key>
-                <string>ChristmasPaperTown.1.png</string>
-                <key>size</key>
-                <string>{430,223}</string>
+                <string>{431,809}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -87,11 +30,11 @@
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{325,223}</string>
+                        <string>{642,429}</string>
                         <key>textureRect</key>
-                        <string>{{1,1},{323,221}}</string>
+                        <string>{{1,1},{429,642}}</string>
                         <key>textureRotated</key>
-                        <false/>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -101,13 +44,29 @@
                         <key>name</key>
                         <string>santa@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{3,3}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{219,113}</string>
+                        <string>{375,163}</string>
                         <key>textureRect</key>
-                        <string>{{326,1},{103,212}}</string>
+                        <string>{{1,645},{375,163}}</string>
                         <key>textureRotated</key>
-                        <true/>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>present@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{21,22}</string>
+                        <key>textureRect</key>
+                        <string>{{378,645},{21,22}}</string>
+                        <key>textureRotated</key>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -119,9 +78,82 @@
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
+                        <string>{11,11}</string>
+                        <key>textureRect</key>
+                        <string>{{378,669},{11,11}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>path</key>
+                <string>ChristmasPaperTown.1.png</string>
+                <key>size</key>
+                <string>{407,217}</string>
+                <key>subimages</key>
+                <array>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>town.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{321,215}</string>
+                        <key>textureRect</key>
+                        <string>{{1,1},{321,215}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>santa.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{188,82}</string>
+                        <key>textureRect</key>
+                        <string>{{324,1},{82,188}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>present.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{11,11}</string>
+                        <key>textureRect</key>
+                        <string>{{324,191},{11,11}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>snowflake.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
                         <string>{6,6}</string>
                         <key>textureRect</key>
-                        <string>{{326,215},{6,6}}</string>
+                        <string>{{337,191},{6,6}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>

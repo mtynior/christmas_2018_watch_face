@@ -23,10 +23,9 @@
 		90BD3A0121B6F88300BA7421 /* ChristmasPaperTown.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */; };
 		90BD3A0721B7028200BA7421 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */; };
 		90BD3A0821B7028200BA7421 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */; };
-		90BD3A0A21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */; };
-		90BD3A0B21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */; };
 		90BD3A0E21B704CA00BA7421 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0C21B704CA00BA7421 /* SnowParticle.sks */; };
 		90BD3A0F21B704CA00BA7421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A0D21B704CA00BA7421 /* Assets.xcassets */; };
+		90BD3A2321B848F900BA7421 /* ChristmasPaperTown.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 90BD3A2221B848F900BA7421 /* ChristmasPaperTown.atlasc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,9 +90,9 @@
 		90BD39FE21B6F83A00BA7421 /* ChristmasPaperTown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasPaperTown.swift; sourceTree = "<group>"; };
 		90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ChristmasPaperTown.sks; sourceTree = "<group>"; };
 		90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
-		90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChristmasPaperTown.atlasc; sourceTree = "<group>"; };
 		90BD3A0C21B704CA00BA7421 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
 		90BD3A0D21B704CA00BA7421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90BD3A2221B848F900BA7421 /* ChristmasPaperTown.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ChristmasPaperTown.atlasc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +171,7 @@
 		90BD39FD21B6F82700BA7421 /* PaperTown */ = {
 			isa = PBXGroup;
 			children = (
-				90BD3A0921B7049800BA7421 /* ChristmasPaperTown.atlasc */,
+				90BD3A2221B848F900BA7421 /* ChristmasPaperTown.atlasc */,
 				90BD3A0621B7028200BA7421 /* DancingScript-Bold.ttf */,
 				90BD39FE21B6F83A00BA7421 /* ChristmasPaperTown.swift */,
 				90BD3A0021B6F88300BA7421 /* ChristmasPaperTown.sks */,
@@ -295,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BD3A0721B7028200BA7421 /* DancingScript-Bold.ttf in Resources */,
-				90BD3A0A21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */,
 				90BD39E021B6F75700BA7421 /* Assets.xcassets in Resources */,
 				90BD39DE21B6F75600BA7421 /* Interface.storyboard in Resources */,
 			);
@@ -306,8 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BD39F021B6F75700BA7421 /* Assets.xcassets in Resources */,
+				90BD3A2321B848F900BA7421 /* ChristmasPaperTown.atlasc in Resources */,
 				90BD3A0E21B704CA00BA7421 /* SnowParticle.sks in Resources */,
-				90BD3A0B21B7049800BA7421 /* ChristmasPaperTown.atlasc in Resources */,
 				90BD3A0821B7028200BA7421 /* DancingScript-Bold.ttf in Resources */,
 				90BD3A0F21B704CA00BA7421 /* Assets.xcassets in Resources */,
 				90BD3A0121B6F88300BA7421 /* ChristmasPaperTown.sks in Resources */,

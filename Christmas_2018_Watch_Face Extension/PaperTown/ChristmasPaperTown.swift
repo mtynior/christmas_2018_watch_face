@@ -23,7 +23,9 @@ public final class ChristmasPaperTown: SKScene {
         return formatter
     }()
     
-    private let mainColor = UIColor(red:  0.745, green: 0.117, blue: 0.176, alpha: 1.00)
+    private let mainColor = UIColor(red: 0.745, green: 0.117, blue: 0.176, alpha: 1.00)
+    
+    private let fontName = "DancingScript-Bold"
     
     private let textureAtlas = SKTextureAtlas(named: "ChristmasPaperTown")
     
@@ -59,13 +61,12 @@ public final class ChristmasPaperTown: SKScene {
         
         backgroundNode.color = mainColor
         timeLabelNode.fontColor = mainColor
-        timeLabelNode.fontName = "DancingScript-Bold"
+        timeLabelNode.fontName = fontName
         dateLabelNode.fontColor = mainColor
-        dateLabelNode.fontName = "DancingScript-Bold"
-        
+        dateLabelNode.fontName = fontName
         
         snowEmitter.targetNode = backgroundNode
-        snowEmitter.position.y = (size.height / 2)
+        snowEmitter.position.y = (size.height / 1.75)
         addChild(snowEmitter)
     }
     
@@ -77,17 +78,7 @@ public final class ChristmasPaperTown: SKScene {
         let now = Date()
         let time = timeFormatter.string(from: now)
         timeLabelNode.text = time
-        //timeLabelNode.fontSize = fontSizeFor(text: time)
         dateLabelNode.text = dateFormatter.string(from: now)
     }
-    
-    /*private func fontSizeFor(text: String) -> CGFloat {
-        switch text.count {
-        case 0...5: return 28
-        case 6...7: return 24
-        case 8: return 19
-        default: return 18
-        }
-    }*/
     
 }
