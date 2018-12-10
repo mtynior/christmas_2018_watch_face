@@ -22,6 +22,9 @@ public final class ChristmasPaperTown: SKScene {
     private lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "dd MMMM"
+        formatter.locale = currentLocale()
+        print(formatter.locale)
+
         return formatter
     }()
     
@@ -31,7 +34,6 @@ public final class ChristmasPaperTown: SKScene {
         return formatter
     }()
     
-  
     private var faceNode: SKNode {
         return childNode(withName: "Face")!
     }
@@ -93,8 +95,7 @@ public final class ChristmasPaperTown: SKScene {
     
     private func updateTime() {
         let now = Date()
-        let time = timeFormatter.string(from: now)
-        timeLabelNode.text = time
+        timeLabelNode.text = timeFormatter.string(from: now)
         dateLabelNode.text = dateFormatter.string(from: now)
         
         // Happy Holidays!
@@ -104,6 +105,19 @@ public final class ChristmasPaperTown: SKScene {
         
         let isChristmasTime = (month == 12) && (24...26 ~= dayOfMonth)
         presentEmitter.particleBirthRate = isChristmasTime ? 1 : 0
+    }
+    
+    private func currentLocale() -> Locale {
+        guard let languageCode = Locale.preferredLanguages.first else {
+            return Locale.current
+        }
+        
+        guard let regionCode = Locale.current.regionCode, !regionCode.isEmpty, regionCode != languageCode else {
+            return Locale.current
+        }
+        
+        let identifier = "\(languageCode)_\(regionCode)"
+        return Locale(identifier: identifier)
     }
     
 }

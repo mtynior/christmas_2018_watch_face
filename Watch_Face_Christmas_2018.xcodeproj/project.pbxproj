@@ -506,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LUKKGTQB5;
 				INFOPLIST_FILE = "Christmas_2018_Watch_Face Extension/Info.plist";
@@ -543,8 +544,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -557,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6LUKKGTQB5;
 				INFOPLIST_FILE = "Christmas_2018_Watch_Face Extension/Info.plist";
@@ -565,8 +568,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -584,7 +588,7 @@
 				DEVELOPMENT_TEAM = 6LUKKGTQB5;
 				IBSC_MODULE = Christmas_2018_Watch_Face_Extension;
 				INFOPLIST_FILE = Christmas_2018_Watch_Face/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -603,7 +607,7 @@
 				DEVELOPMENT_TEAM = 6LUKKGTQB5;
 				IBSC_MODULE = Christmas_2018_Watch_Face_Extension;
 				INFOPLIST_FILE = Christmas_2018_Watch_Face/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tynior.Watch-Face-Christmas-2018.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.this.should.be.proper.id.Watch-Face-Christmas-2018.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
