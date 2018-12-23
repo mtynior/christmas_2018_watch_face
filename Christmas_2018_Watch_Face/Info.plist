@@ -30,7 +30,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.tynior.Watch-Face-Christmas-2018</string>
+	<string>com.this.should.be.proper.id.Watch-Face-Christmas-2018</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

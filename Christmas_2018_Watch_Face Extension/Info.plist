@@ -23,7 +23,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.tynior.Watch-Face-Christmas-2018.watchkitapp</string>
+			<string>com.this.should.be.proper.id.Watch-Face-Christmas-2018.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
